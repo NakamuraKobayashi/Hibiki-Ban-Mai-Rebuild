@@ -3,7 +3,6 @@ const fs = require("fs")
 
 
 class Banmoi extends Client {
-
     commands = new Collection();
     aliases = new Collection();
     categories = fs.readdirSync("./commands/");
